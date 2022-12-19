@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dbe2f5">
+
+    <TextView
+        android:id="@+id/txtCaption"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/txtDateTimeCreate"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="35dp"
+        android:text="aaaaaaaaaaaaaaaaaaaaa"
+        android:textAlignment="viewEnd"
+        android:textSize="12dp"></TextView>
+
+    <TextView
+        android:id="@+id/txtContent"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:text="aaaaaaaaaaaaaaaaaaaaa"
+        android:textSize="10dp"></TextView>
+
+    <TextView
+        android:id="@+id/txtDateTimeRemind"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:text="aaaaaaaaaaaaaaaaaaaaa"
+        android:textSize="12dp"></TextView>
+
+    <TextView
+        android:id="@+id/txtPriority"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:text="aaaaaaaaaaaaaaaaaaaaa"
+        android:textSize="12dp"></TextView>
+
+</RelativeLayout>

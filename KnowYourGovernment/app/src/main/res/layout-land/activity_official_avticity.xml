@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3041C6"
+    android:orientation="vertical"
+    tools:context=".OfficialActivity">
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#423E3E"
+        android:gravity="center"
+        android:text="Chicago, IL 60601"
+        android:textColor="#E3D1D1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="President Of The United Stated"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:padding="5dp"
+        android:text="Donald J.Trump "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvParty"
+        android:layout_marginLeft="220dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:padding="5dp"
+        android:text="( Republian )"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal">
+
+
+    <TableLayout
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            >
+
+            <TextView
+                android:id="@+id/tvLblDiaChi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Address:"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:width="0dp"
+                android:gravity="left"
+                android:maxLines="6"
+                android:paddingLeft="16dp"
+                android:text="G12 Dirksen Senate Office Building Wasington DC  20510"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:id="@+id/tvLblPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Phone:"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="(202) 224-2854"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:id="@+id/tvLblEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Email:"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="No Data Provided"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/tvLblWebsite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Website:"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvWebsite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="https://www.duckworth.senate.gov"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+
+        android:id="@+id/imgHinhAnh"
+        android:layout_width="272dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:elevation="3dp"
+        android:src="@drawable/no_image" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-80dp"
+        android:layout_marginLeft="10dp">
+
+
+        <ImageButton
+            android:id="@+id/ibtnTwitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/twitter" />
+
+        <ImageButton
+            android:id="@+id/ibtnGoogle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/google" />
+
+        <ImageButton
+            android:id="@+id/ibtnFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/facebook" />
+
+        <ImageButton
+            android:id="@+id/ibtnYoutube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/youtube" />
+
+    </LinearLayout>
+
+</LinearLayout>

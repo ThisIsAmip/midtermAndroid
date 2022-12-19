@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3041C6"
+    tools:context=".HinhAnhActivity">
+
+    <TextView
+        android:id="@+id/tvLocation_Photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#423E3E"
+        android:gravity="center"
+        android:text="Dia_diem"
+        android:textColor="#E3D1D1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTitle_Photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Chuc_vu"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tvName_Photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Ten_Official"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="495dp"
+        android:padding="16dp"
+        app:srcCompat="@android:drawable/ic_menu_report_image" />
+</LinearLayout>

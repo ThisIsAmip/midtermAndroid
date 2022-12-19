@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/block1"
+        android:layout_width="213dp"
+        android:layout_height="203dp"
+        android:background="#DC1616" />
+
+    <TextView
+        android:id="@+id/block2"
+        android:layout_width="417dp"
+        android:layout_height="132dp"
+        android:layout_alignEnd="@id/block1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-7dp"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginTop="377dp"
+        android:layout_marginEnd="-198dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="222dp"
+        android:background="#DCC216" />
+
+    <TextView
+        android:id="@+id/block3"
+        android:layout_width="217dp"
+        android:layout_height="176dp"
+        android:layout_alignLeft="@id/block4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="-213dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginRight="194dp"
+        android:layout_marginBottom="-66dp"
+        android:background="#16DC37" />
+
+    <TextView
+        android:id="@+id/block4"
+        android:layout_width="198dp"
+        android:layout_height="380dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="0dp"
+        android:background="#1620DC" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="166dp" />
+
+</RelativeLayout>

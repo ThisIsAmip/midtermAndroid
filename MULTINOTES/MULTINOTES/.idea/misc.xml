@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MULTINOTES(TESTING)/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MULTINOTES(TESTING)/app/src/main/res/layout/mymenu.xml" value="0.153125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MULTINOTES(TESTING)/app/src/main/res/layout/new_notes.xml" value="0.5" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MULTINOTES(TESTING)/app/src/main/res/menu/mymenu.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MULTINOTES/app/src/main/res/drawable/ic_launcher_background.xml" value="0.111" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MULTINOTES/app/src/main/res/layout/action_note_activity_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MULTINOTES/app/src/main/res/layout/activity_main.xml" value="0.2443820224719101" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MULTINOTES/app/src/main/res/layout/add_activity_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MULTINOTES/app/src/main/res/layout/main_activity_layout.xml" value="0.27241139680333565" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MULTINOTES/app/src/main/res/layout/main_menu.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MULTINOTES/app/src/main/res/layout/new_notes.xml" value="0.16634799235181644" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MULTINOTES/app/src/main/res/layout/note.xml" value="0.3856613102595797" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MULTINOTES/app/src/main/res/menu/action_note_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MULTINOTES/app/src/main/res/menu/add_activity_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MULTINOTES/app/src/main/res/menu/add_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MULTINOTES/app/src/main/res/menu/main_activity_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MULTINOTES/app/src/main/res/menu/main_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MULTINOTES/app/src/main/res/menu/mymenu.xml" value="0.5" />
+        <entry key="..\:/Users/Admin/Desktop/MULTINOTES/app/src/main/res/layout/custom_listview_select_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/Desktop/MULTINOTES/app/src/main/res/layout/listview_select.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/Desktop/MULTINOTES/app/src/main/res/layout/note_layout.xml" value="0.4440104166666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
